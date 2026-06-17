@@ -1,6 +1,6 @@
 # What DAIS 2026 Means for Existing Databricks Customers
 
-This is tailored to **you**: an existing customer heavily using **Spark, MLflow, Genie Spaces, Lakeflow/DLT pipelines**, plus DuckDB + Splink off-platform.
+Written for an existing Databricks customer heavily using **Spark, MLflow, Genie Spaces, Lakeflow/DLT pipelines**, who also runs **DuckDB + Splink** off-platform.
 
 ## Bottom line
 Almost nothing here is disruptive. It's **additive and upgrade-shaped** — most items make tools you already run better. The two things that actually require *decisions* are (1) adopting the agent-governance layer (Unity AI Gateway) before agents proliferate, and (2) curating semantics/ontology to unlock the accuracy gains.

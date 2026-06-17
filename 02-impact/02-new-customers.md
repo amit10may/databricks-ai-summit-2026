@@ -1,6 +1,6 @@
 # What DAIS 2026 Means for New / Prospective Databricks Customers
 
-For a net-new adopter (useful if VCreaTek advises clients evaluating Databricks).
+For a net-new adopter — a team or organization evaluating Databricks for the first time.
 
 ## The pitch in one line
 Databricks is positioning itself as the **unified, open, governed platform for the agentic era** — one place to run data engineering, warehousing, BI, ML/GenAI, operational apps (Lakebase), *and* govern the agents that act on all of it.

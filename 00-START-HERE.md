@@ -2,7 +2,7 @@
 
 **Event:** Data + AI Summit 2026 (DAIS 2026) · Moscone Center, San Francisco · **June 15–18, 2026**
 **Compiled:** June 17, 2026 (mid-summit; based on official Databricks newsroom + blog posts dated June 10–16, 2026)
-**Audience:** VCreaTek — existing Databricks customer (Spark, MLflow, Genie Spaces, Lakeflow/DLT) also running DuckDB + Splink off-platform.
+**Audience:** Teams already on Databricks (Spark, MLflow, Genie Spaces, Lakeflow/DLT) who also run off-platform tools like DuckDB + Splink.
 
 > Scope note: This pack sticks to **official Databricks sources only** (databricks.com newsroom, blog, docs) and to **2026** content. Where a feature launched earlier and was only *re-stated* at DAIS 2026, that is flagged. Release stages (GA / Public Preview / Beta / Private Preview) are quoted as Databricks stated them — these change fast, so re-confirm in docs before you build.
 
