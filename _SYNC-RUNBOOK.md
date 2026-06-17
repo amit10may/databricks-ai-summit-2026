@@ -31,6 +31,7 @@ Location: `dais-2026/` (this folder).
 - `03-sources.md` — **the ledger of already-processed URLs** (dedup source of truth)
 - `feature-status.md` — preview→GA tracking table
 - `UPDATES.md` — **append-only changelog; new findings land here first**
+- `the-scoop-zingers-and-memes.md` — fun file: flexes, competitor subtweets, meme-able lines (sourced)
 - `_SYNC-RUNBOOK.md` — this file
 
 User context (keep tailoring to this): existing Databricks customer using **Spark, MLflow,
@@ -85,6 +86,11 @@ plus DuckDB/Splink interop). Keep it tight and factual.
 Add one dated section per sync. Use the template at the top of `UPDATES.md`. Group by:
 new announcements, stage changes, new sessions/recordings, ⚠️ corrections. Cross-reference which
 topic file each item *would eventually* update (e.g., "→ 01-announcements/03-genie.md").
+
+### Step 4b — (Optional) Refresh the scoop
+If new official lines or **keynote recordings/transcripts** have dropped, add any genuinely punchy,
+funny, or competitor-shade quotes to `the-scoop-zingers-and-memes.md`. **Only real, sourced quotes**
+— never invent lines or attribute fabricated quotes to real people; label paraphrases as such.
 
 ### Step 5 — Update the ledger + status table
 - Append every newly-processed URL to `03-sources.md` (so the next sync dedups correctly).

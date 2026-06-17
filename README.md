@@ -59,6 +59,7 @@ No hype. No third-party hot takes as gospel. Every note ties back to [documented
 | **See the marquee launches at a glance** | [01-headline-launches.md](01-announcements/01-headline-launches.md) |
 | **Understand the event themes & keynotes** | [00-overview.md](01-announcements/00-overview.md) |
 | **Verify links & release stages** | [03-sources.md](03-sources.md) |
+| **Have some fun — flexes, subtweets & memes** 🍿 | [the-scoop-zingers-and-memes.md](the-scoop-zingers-and-memes.md) |
 
 ---
 
@@ -83,6 +84,7 @@ dais-2026/
 ├── _SYNC-RUNBOOK.md                  ← how Claude refreshes the pack + the magic words
 ├── UPDATES.md                        ← append-only changelog of every sync
 ├── feature-status.md                 ← preview → GA status tracker
+├── the-scoop-zingers-and-memes.md    ← 🍿 the fun file: flexes, subtweets, meme bait
 ├── 01-announcements/
 │   ├── 00-overview.md                ← event facts, keynotes, themes
 │   ├── 01-headline-launches.md       ← marquee items at a glance

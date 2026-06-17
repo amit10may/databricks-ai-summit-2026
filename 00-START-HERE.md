@@ -22,6 +22,8 @@ DAIS 2026 is an **"agentic era"** summit. The throughline across every announcem
 4. **Unity Catalog + Unity AI Gateway** — the governance layer everything else plugs into; also the key to DuckDB/Splink interop. → `01-announcements/02-unity-catalog-governance.md`
 5. **Open formats & OpenSharing** — how DuckDB/Splink read and write the same governed tables. → `01-announcements/07-open-source-sharing.md` and `02-impact/04-interop-duckdb-splink.md`
 
+🍿 **Need a break from release stages?** [`the-scoop-zingers-and-memes.md`](the-scoop-zingers-and-memes.md) has the summit's best flexes, competitor subtweets, and meme-able lines — all sourced.
+
 ---
 
 ## Where to get the source content (official)
@@ -62,6 +64,7 @@ dais-2026/
 ├── _SYNC-RUNBOOK.md                  ← how Claude refreshes this pack + the magic words
 ├── UPDATES.md                        ← append-only changelog of every sync
 ├── feature-status.md                 ← preview → GA status tracker
+├── the-scoop-zingers-and-memes.md    ← 🍿 flexes, competitor subtweets & meme bait (for fun)
 ├── 01-announcements/
 │   ├── 00-overview.md                ← event facts, keynotes, themes
 │   ├── 01-headline-launches.md       ← the marquee items at a glance
