@@ -38,11 +38,30 @@ Full link list: `03-sources.md`
 
 ---
 
+## 🚀 Take this for a spin yourself (with Claude)
+
+This pack is a living "repo," not a one-time report. Here's how to drive it with Claude:
+
+1. **Point Claude at this folder.** Open Cowork with the `databricks/` folder connected and start with: *"Read `dais-2026/00-START-HERE.md` and get oriented."*
+2. **Ask it anything about the summit.** e.g. *"What changed for our Lakeflow/DLT pipelines?"* or *"Summarize the Genie announcements for a non-technical exec."* Claude answers from the topic files and cites `03-sources.md`.
+3. **Keep it current — the updates angle.** The summit is still running and recap posts/recordings land afterward. When you want fresh content pulled in, just say the magic words:
+
+   > **"Sync the Databricks Summit pack"**
+
+   Claude reads `_SYNC-RUNBOOK.md`, hunts official Databricks sources, dedups against what's already captured, and appends new findings to `UPDATES.md` + the status tracker — **without** clobbering your existing files. Add **"...full rebuild"** to fold those updates into the main topic files, or **"...just status"** to only refresh preview→GA changes.
+
+4. **Check what's moved.** `feature-status.md` is the at-a-glance tracker for which features are GA vs Preview; `UPDATES.md` is the dated changelog of every sync.
+
+Everything is plain Markdown — portable, diff-able, and yours. The runbook is self-contained, so even a brand-new Claude session (no memory of how this was built) can run a sync correctly.
+
 ## Folder map
 
 ```
 dais-2026/
-├── 00-START-HERE.md                  ← you are here
+├── 00-START-HERE.md                  ← you are here (orientation + how to drive it with Claude)
+├── _SYNC-RUNBOOK.md                  ← how Claude refreshes this pack + the magic words
+├── UPDATES.md                        ← append-only changelog of every sync
+├── feature-status.md                 ← preview → GA status tracker
 ├── 01-announcements/
 │   ├── 00-overview.md                ← event facts, keynotes, themes
 │   ├── 01-headline-launches.md       ← the marquee items at a glance
@@ -56,5 +75,5 @@ dais-2026/
 │   ├── 01-existing-customers.md
 │   ├── 02-new-customers.md
 │   └── 04-interop-duckdb-splink.md   ← your off-platform tools
-└── 03-sources.md
+└── 03-sources.md                     ← link list + the dedup ledger for syncs
 ```
