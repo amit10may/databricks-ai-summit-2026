@@ -8,6 +8,37 @@ A curated, source-backed guide to what Databricks announced at DAIS 2026 — org
 
 ---
 
+## 🚀 Drive this with Claude — and keep it fresh
+
+This isn't a static report. It's a small repo you **run with Claude**: ask it questions, and
+refresh it with new announcements as the summit and its recap posts keep rolling out.
+
+**Ask it anything** — point Claude at this folder and try:
+> *"Read `dais-2026/00-START-HERE.md` and get oriented."*
+> *"What changed for our Lakeflow/DLT pipelines?"*
+> *"Summarize the Genie announcements for a non-technical exec."*
+
+**Keep it current — just say the magic words** ✨
+
+> ### 🔄 "Sync the Databricks Summit pack"
+
+Claude reads [`_SYNC-RUNBOOK.md`](_SYNC-RUNBOOK.md), hunts official Databricks sources, dedups
+against what's already captured, and appends new findings to [`UPDATES.md`](UPDATES.md) +
+[`feature-status.md`](feature-status.md) — **without** clobbering your existing files.
+
+| Say this | And Claude will |
+|---|---|
+| **"Sync the Databricks Summit pack"** | Find new official content, append to the changelog (safe, additive) |
+| *…add* **"full rebuild"** | Also fold updates into the main topic files |
+| *…add* **"just status"** | Only refresh the preview→GA status tracker |
+| *…add* **"since June 18"** | Only look for content after that date |
+
+Then check **[`UPDATES.md`](UPDATES.md)** (dated changelog) and **[`feature-status.md`](feature-status.md)**
+(GA vs Preview at a glance) to see what moved. The runbook is self-contained, so even a brand-new
+Claude session can run a sync correctly.
+
+---
+
 ## Why this repo exists
 
 DAIS 2026 wasn't a scattershot product dump. It had a spine:
@@ -47,7 +78,11 @@ Databricks framed the whole summit around governing and building for **agents**.
 
 ```
 dais-2026/
-├── 00-START-HERE.md                  ← your entry point
+├── README.md                         ← you are here (overview + how to drive it with Claude)
+├── 00-START-HERE.md                  ← your entry point for the content
+├── _SYNC-RUNBOOK.md                  ← how Claude refreshes the pack + the magic words
+├── UPDATES.md                        ← append-only changelog of every sync
+├── feature-status.md                 ← preview → GA status tracker
 ├── 01-announcements/
 │   ├── 00-overview.md                ← event facts, keynotes, themes
 │   ├── 01-headline-launches.md       ← marquee items at a glance
@@ -61,7 +96,7 @@ dais-2026/
 │   ├── 01-existing-customers.md      ← additive upgrades for current users
 │   ├── 02-new-customers.md           ← what to evaluate first
 │   └── 04-interop-duckdb-splink.md   ← off-platform tools + governed tables
-└── 03-sources.md                     ← every link, in one place
+└── 03-sources.md                     ← every link + the dedup ledger for syncs
 ```
 
 ---
