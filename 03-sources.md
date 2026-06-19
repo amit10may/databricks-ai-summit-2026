@@ -9,6 +9,14 @@ All official Databricks unless noted. Captured June 17, 2026 (mid-summit). Re-ch
 - Lakebase launch: https://www.databricks.com/company/newsroom/press-releases/databricks-launches-lakebase-new-class-operational-database-ai-apps
 - LTAP architecture: https://www.databricks.com/company/newsroom/press-releases/databricks-launches-ltap-first-lake-transactionalanalytical
 
+## Added in sync 2026-06-19
+- Lakeflow: A new era of agentic data engineering: https://www.databricks.com/blog/lakeflow-new-era-agentic-data-engineering
+- What's New in the AI Platform (Genie Code for ML, AI Runtime, Real-Time ML): https://www.databricks.com/blog/whats-new-ai-platform-agents-ml-engineering-our-deep-learning-platform-and-new-capabilities
+- Introducing Genie ZeroOps: https://www.databricks.com/blog/introducing-genie-zeroops
+- What's new in Databricks Platform security and compliance (Context-Based Ingress): https://www.databricks.com/blog/whats-new-databricks-platform-security-and-compliance-data-ai-summit-2026
+- 2026 Databricks Global Partner Awards: https://www.databricks.com/blog/databricks-announces-2026-global-partner-awards
+- Release notes (June 2026, AWS): https://docs.databricks.com/aws/en/release-notes/product/2026/june
+
 ## Product announcement blogs (DAIS 2026)
 - What's new with Unity Catalog at Data + AI Summit 2026: https://www.databricks.com/blog/whats-new-unity-catalog-data-ai-summit-2026
 - AI governance — What's new with Unity AI Gateway: https://www.databricks.com/blog/ai-governance-data-ai-summit-2026-whats-new-unity-ai-gateway

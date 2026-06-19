@@ -38,6 +38,19 @@ Legend: GA = Generally Available · PuP = Public Preview · Beta · PrPr = Priva
 | Lakebase (serverless Postgres) | Operational DB | GA | early 2026 | Postgres 17, branching |
 | MLflow 3 for GenAI | ML/GenAI | GA | 2026 | Tracing, eval, prompt registry |
 | Lakeflow Spark Declarative Pipelines | Data eng | Evolving (SDP in Apache Spark) | 2026-06 | DLT successor; OSS standard |
-| Lakeflow Designer | Data eng | PuP (confirm current) | 2026-06 | Visual/NL pipeline authoring |
+| Lakeflow Designer | Data eng | **GA** | 2026-06-19 | ⬆ from PuP. Visual/NL; Flows run on SDP |
+| Real-Time Mode (RTM) for SDP | Data eng | Public Preview | 2026-06-19 | ~5 ms end-to-end; no separate Flink engine |
+| SDP declarative APIs in Databricks SQL | Data eng | GA | 2026-06-19 | Append, Auto CDC, Replace Where, Mat. View |
+| Lakeflow Connect (100+ connectors) | Data eng | GA + Free Tier | 2026-06-19 | Query-based CDC capture GA; Community Connectors Beta |
+| Zerobus Ingest | Data eng | GA (Kafka-compatible APIs Beta) | 2026-06-19 | Kafka-free; gRPC/REST GA; OTel PuP |
+| Lakeflow Jobs (50+ integrations) | Data eng | GA | 2026-06-19 | External Orchestration; data-readiness triggers |
+| Genie ZeroOps | Data eng / Ops | Announced (DAIS 2026) | 2026-06-19 | Background agent: monitor, RCA, propose fixes |
+| Lakehouse//RT | Data warehousing | Announced | 2026-06-19 | Real-time DW type, ms-scale serving |
+| Genie Code for ML | ML/GenAI | Available (DAIS 2026) | 2026-06-19 | Full ML lifecycle agent; logs to MLflow |
+| AI Runtime (serverless GPUs) | ML/GenAI | Public Preview | 2026-06-19 | A10/H100, multinode; MLflow + UC governed |
+| High-QPS Model Serving | ML/GenAI | Announced (DAIS 2026) | 2026-06-19 | 300K+ QPS at <10 ms p99 overhead |
+| Online Feature Serving on Lakebase | ML/GenAI | Announced | 2026-06-19 | Low-latency feature serving |
+| Context-Based Ingress (CBI) | Security | Announced (DAIS 2026) | 2026-06-19 | Zero-trust external access to Genie/Apps/Gateway |
+| Databricks Runtime 19 / DBR 19 ML | Compute | Beta | 2026-06-19 | Apache Spark 4.2.0 |
 
-> ⬜ = stage to watch. Next sync: re-check anything marked "soon", "Beta", "PuP", or "PrPr" for GA flips.
+> ⬜ = stage to watch. Next sync: re-check anything marked "soon", "Beta", "PuP", "PrPr", or "Announced" for GA flips.

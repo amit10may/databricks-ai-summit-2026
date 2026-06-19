@@ -71,6 +71,23 @@ ratio'd.
 
 ---
 
+## 🆕 Fresh from Days 3–4 (sync 2026-06-19)
+
+- **"Every cron schedule is a guess at when data is ready."** Lakeflow Jobs' pitch for data-readiness
+  triggers — a tidy little funeral for the 3 a.m. cron job. *(Lakeflow blog)*
+- **External Orchestration "can trigger Snowflake jobs."** Databricks shipped a feature whose example
+  use case is… running your rival's jobs from inside Databricks. Bold flex, lightly petty. *(Lakeflow blog)*
+- **"No separate Flink engine."** Real-Time Mode for Spark Declarative Pipelines hits ~5 ms latency
+  while pointedly noting you no longer need to babysit a second streaming engine. Flink left on read.
+  *(Lakeflow blog)*
+- **"Consolidating legacy orchestrators, such as Apache Airflow."** Airflow named directly as the thing
+  you're meant to retire. *(Lakeflow blog)*
+- **"300K+ QPS at under 10 ms p99… no knobs to tune."** Model Serving flex, with a side of "cut
+  infrastructure costs by up to 90%+ vs self-managed stacks." The "90% cheaper than doing it yourself"
+  slide never misses. *(AI Platform blog)*
+
+---
+
 ## 🎤 Bold claims (the "frame it on the wall" tier)
 
 - **"The catalog has moved from a system of record to a runtime decision-maker for AI."** Translation:
